@@ -1,0 +1,27 @@
+import java.awt.image.AreaAveragingScaleFilter;
+
+public class Program1 {
+
+	public static void main(String[] args) {
+		
+	
+		
+		
+		int [] arr = new int [5];
+		arr [0] = 80;
+		arr [1] = 80;
+		arr [2] = 100;
+		arr [3] = 90;
+		arr [4] = 95;
+		
+		int sum = 0;
+		
+		for (int i = 0; i<5 ; i++) {
+			sum += arr [i];
+		}
+		
+		System.out.println("The avg is:" + sum/5 );
+
+	}
+
+}
